@@ -1,13 +1,23 @@
+@font-face {
+  font-family: 'vazir';
+  src: url('./utils/fonts/vazir-font-v16.1.0/Vazir-Medium.eot') format('eot');
+  src: url('./utils/fonts/vazir-font-v16.1.0/Vazir-Medium.ttf') format('ttf');
+  src: url('./utils/fonts/vazir-font-v16.1.0/Vazir-Medium.woff') format('woff');
+  src: url('./utils/fonts/vazir-font-v16.1.0/Vazir-Medium.woff2') format('woff2');
+}
+
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: 'vazir', "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
