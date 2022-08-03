@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    height:4rem;
+    background-color:red;
+    overflow: hidden;
+}
+.icons{
+    display: flex;
+    margin: 20px 10px;
+}
+.profile{
+    display: flex;
+    height: 100%;
+    margin: 0 10px;
+}

@@ -6,7 +6,11 @@
   src: url('./utils/fonts/vazir-font-v16.1.0/Vazir-Medium.woff2') format('woff2');
 }
 
-
+*{
+  font-family: 'vazir', "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
 
 body {
   margin: 0;

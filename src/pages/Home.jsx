@@ -1,7 +1,11 @@
-
+import classes from './Home.module.css';
+import Sidebar from '../components/sidebar/Sidebar'
 
 const Home = () => {
-    return ( <div>home</div> );
+    return ( <div className={classes.container}>
+        <Sidebar/>
+        <div>main</div>
+    </div> );
 }
  
 export default Home;
