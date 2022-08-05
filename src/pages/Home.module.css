@@ -3,3 +3,6 @@
     height:100vh;
     grid-template-columns: 1.3fr 3fr;
 }
+.mainContainer{
+    margin:0 10px;
+}

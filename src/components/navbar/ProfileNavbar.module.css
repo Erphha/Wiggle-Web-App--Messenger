@@ -1,0 +1,23 @@
+.container{
+    position: relative;
+     overflow: hidden;
+ }
+ .topContainer{
+      display: flex;
+     justify-content: space-around;
+     height:4rem;
+     overflow: hidden;
+     background:transparent;
+ }
+ .register{
+    z-index: 1000 !important;
+  text-decoration: none;
+  margin: 20px 0;
+ }
+ 
+ .profile{
+     display: flex;
+     height: 100%;
+     margin: 0 10px;
+     z-index: 1000;
+ }
